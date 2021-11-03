@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT | Ghost Block</title>
+    <link href="imgs/Favicon.png" style="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/favicon.ico" style="">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header clearfix" id="navbar">
+        <div class="header-left">
+            <a href="index.html">GHOST <span>BLOCK</span></a>
+        </div>
+        <div class="header-right">
+           <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <div class="menu-btn">
+                        <div class="menu-btn_burger">
+
+                        </div>
+                    </div>
+                </label>
+            <ul>
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="mint.html">MINT</a></li>
+                <li><a href="inventory.html">INVENTORY</a></li>
+                <li><a href="play.html">PLAY</a></li>
+                <li><a href="#" class="nb ">INFO</a>
+                    <ul>
+                        <li><a href="https://ghostblock.gitbook.io/ghost-block/" target="_blank">WHITEPAPER </a></li>
+                        <li><a href="pc.html">PARTNERSHIP CONTACT </a></li>
+                    </ul>
+
+                </li>
+                
+
+            </ul>
+            
+
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="imgs/content.gif" alt="">
+    </div>
+
+    <div class="services clearfix">
+        <div class="service-item box-1">
+            <img src="imgs/box1.gif" alt="">
+            <p>Create NFTs in our version of breeding.</p>
+        </div>
+        <div class="service-item box-2">
+            <img src="imgs/box2.gif" alt="">
+            <p class="bold">Stake your NFTs to earn tokens.</p>
+        </div>
+        <div class="service-item box-3">
+            <img src="imgs/box3.png" alt="">
+            <p>Sell your tokens for money.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="https://discord.com/invite/vXKTyp6TRx"><img src="imgs/Discord2.png" alt=""></a>
+        <a href="https://t.me/ghostblocknft"><img src="imgs/telegram2.png" alt=""></a>
+        <a href="https://twitter.com/GhostBlockNFT"><img src="imgs/twitter2.png" alt=""></a>
+        <a href="https://www.facebook.com/GhostBlockNFT"><img src="imgs/Facebook%20icon2.png" alt=""></a>
+        <p>© 2021 Ghost Block</p>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 300) {
+                    $(".header").css({
+                        "opacity": "0"
+                    })
+                } else {
+                    $(".header").css({
+                        "opacity": "1"
+                    })
+                }
+            })
+        })
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
